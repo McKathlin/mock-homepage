@@ -9,7 +9,12 @@
 <body>
   <header>
     <figure>
-      <!--Portrait goes here.-->
+      <img
+        srcset="img/bob-portrait-450w.jpg 450w, img/bob-portrait-1500w.jpg 1800w"
+        sizes="(max-width: 450px) 450px, 1500px"
+        src="img/bob-portrait-1500w.jpg"
+        alt=""
+      >
       <figcaption><h1>Bob Bogus</h1></figcaption>
     </figure>
     <section id="about">
@@ -71,7 +76,12 @@
       <!--Contact info goes here.-->
     </section>
     <figure>
-      <!--Another photo goes here.-->
+      <img
+        srcset="img/bob-at-computer-450w.jpg 450w, img/bob-at-computer-1800w.jpg 1800w"
+        sizes="(max-width: 450px) 450px, 1800px"
+        src="img/bob-at-computer-1800w.jpg"
+        alt=""
+      >
     </figure>
   </footer>
 </body>
