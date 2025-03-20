@@ -49,6 +49,7 @@ i.link {
   background-image: url('./img/open-in-new.svg');
 }
 
+
 /* Header */
 
 
@@ -64,6 +65,14 @@ footer {
   h1, h2, h3 {
     color: var(--background-color);
   }
+}
+
+i.phone {
+  background-image: url('./img/phone.svg');
+}
+
+i.email {
+  background-image: url('./img/email.svg');
 }
 
 /* Tablet layout */
