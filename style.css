@@ -1,8 +1,16 @@
 /* Entire page */
 
 body {
+  --headline-font: "Playfair Display", Georgia, serif;
+  --simple-font: "Roboto", Arial, Helvetica, sans-serif;
+
+  font-family: var(--simple-font);
   color: #111111;
   background: #eeeeee;
+}
+
+h1, h2, h3 {
+  font-family: var(--headline-font);
 }
 
 img {
@@ -31,3 +39,14 @@ i.wordpress {
   background-image: url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-plain.svg');
 }
 
+/* Header */
+
+
+
+/* Projects */
+
+/* Footer */
+
+/* Tablet layout */
+
+/* Desktop layout */
