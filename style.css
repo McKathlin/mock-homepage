@@ -58,8 +58,12 @@ i.link {
 /* Footer */
 
 footer {
-  color: var(--background-color) !important;
+  color: var(--background-color);
   background-color: var(--accent-color);
+
+  h1, h2, h3 {
+    color: var(--background-color);
+  }
 }
 
 /* Tablet layout */
