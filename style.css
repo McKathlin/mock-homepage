@@ -19,7 +19,7 @@ img {
   max-height: 90vh;
 }
 
-/* Icons */
+/* Icon Sources */
 
 i {
   display: inline-block;
@@ -31,12 +31,16 @@ i.github {
   background-image: url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg');
 }
 
-i.link {
-  background-image: url('./img/open-in-new.svg')
+i.linkedin {
+  background-image: url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg');
 }
 
 i.wordpress {
   background-image: url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-plain.svg');
+}
+
+i.link {
+  background-image: url('./img/open-in-new.svg');
 }
 
 /* Header */
