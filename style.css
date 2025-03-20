@@ -2,3 +2,21 @@ body {
   color: #111111;
   background: #eeeeee;
 }
+
+i {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+i.github {
+  background-image: url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg');
+}
+
+i.link {
+  background-image: url('./img/open-in-new.svg')
+}
+
+i.wordpress {
+  background-image: url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-plain.svg');
+}
