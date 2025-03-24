@@ -5,6 +5,7 @@ body {
   --text-color: #565656;
   --background-color: #ffffff;
   --accent-color: #0891b2;
+  --shadow-color: #0c060020;
 
   --headline-font: "Playfair Display", Georgia, serif;
   --simple-font: "Roboto", Arial, Helvetica, sans-serif;
@@ -49,10 +50,16 @@ i.link {
   background-image: url('./img/open-in-new.svg');
 }
 
-
 /* Header */
 
-
+header {
+  background: linear-gradient(
+    150deg,
+    var(--accent-color) 48%, 
+    var(--shadow-color) 48.1%,
+    transparent 50%
+  )
+}
 
 /* Projects */
 
